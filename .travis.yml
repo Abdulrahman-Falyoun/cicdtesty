@@ -65,9 +65,9 @@ jobs:
         components:
           - tools
           - platform-tools
-          - build-tools-25.0.3
+          - build-tools-28.0.3
+          - android-29
           - android-24
-          - android-22
           - extra-google-google_play_services
           - extra-google-m2repository
           - extra-android-m2repository
@@ -89,3 +89,4 @@ jobs:
         - cd $APP
         - $FLUTTER_UP devices
         - $FLUTTER_UP driver --target=test_driver/app.dart
+        - $FLUTTER doctor --android-licenses
