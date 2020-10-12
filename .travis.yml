@@ -1,12 +1,12 @@
 language: dart
 dart:
-- stable
-- beta
-- dev
+#- stable
+#- beta
+#- dev
 
 dart_task:
 - test: --platform vm
-- test: --platform chrome
+#- test: --platform chrome
 - dartfmt
 
 # Warnings are fatal, but we only analyze the lib/ directory.
