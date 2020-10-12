@@ -89,4 +89,4 @@ jobs:
         - cd $APP
         - $FLUTTER_UP devices
         - $FLUTTER_UP driver --target=test_driver/app.dart
-        - $FLUTTER doctor --android-licenses
+        # - $FLUTTER doctor --android-licenses
